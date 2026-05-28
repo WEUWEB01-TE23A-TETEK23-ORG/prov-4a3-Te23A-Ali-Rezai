@@ -1,0 +1,63 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px ;
+
+}
+.kontenar{
+width: 960px;
+}
+header{
+width: 960px;
+display: flex;
+background-color: #2C4C3B;
+}
+header img{
+    width: 100px;
+}
+header ul{
+    width: 300px;
+    display: flex;
+    color: #ffffff;
+}
+section{
+background-image: url(bilder/skogsbakgrund.png);
+width: auto;
+
+}
+section main{
+height: 405px;
+}
+section img{
+
+}
+footer{
+width: 960px;
+background-color: #2C4C3B;
+}
+footer p{
+color: aliceblue;
+width:200px;
+display: flex;
+display: inline;
+}
+aside{
+color: aliceblue;
+display: inline;
+}
